@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper_bg" >
+
+    <ImageView
+        android:id="@+id/imag"
+        android:layout_width="150dp"
+        android:layout_height="141dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/vote_logo" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/checkvote"
+            android:layout_width="300dp"
+            android:layout_height="75dp"
+            android:layout_marginBottom="64dp"
+            android:background="@drawable/check_vote_btn_xml" />
+
+        <Button
+            android:id="@+id/vote"
+            android:layout_width="300dp"
+            android:layout_height="75dp"
+            android:background="@drawable/vote_btn_xml" />
+    </LinearLayout>
+
+</RelativeLayout>

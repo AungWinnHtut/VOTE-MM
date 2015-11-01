@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">Vote</string>
+    <string name="hello_world">Vote</string>
+    <string name="menu_settings">Vote</string>
+    <string name="title_activity_main">Vote</string>
+
+</resources>
